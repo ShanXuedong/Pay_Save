@@ -6,8 +6,9 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-}
 
+    this->setWindowTitle("单学东的记账本");
+}
 MainWindow::~MainWindow()
 {
     delete ui;
