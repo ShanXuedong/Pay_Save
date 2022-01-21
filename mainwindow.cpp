@@ -8,6 +8,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
 
     this->setWindowTitle("单学东的记账本");
+
+    this->resize(1000,800);
 }
 MainWindow::~MainWindow()
 {
